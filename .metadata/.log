@@ -732,3 +732,854 @@ org.osgi.framework.BundleException: Unable to acquire the state change lock for 
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.036
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.036
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.046
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.056
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.076
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.076
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.086
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.086
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.156
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.156
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.156
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.156
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.206
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.206
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.206
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.216
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.486
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.486
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.486
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.486
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.486
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.486
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.486
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.496
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.538
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.548
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.548
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.548
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.568
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.568
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.568
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.568
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.588
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.588
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.588
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:53.588
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:57.953
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:57.953
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:57.963
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:57.963
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:57.983
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:32:57.983
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:02.715
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:02.715
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.692
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.692
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.702
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.702
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.702
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.702
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.702
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.702
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.746
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.746
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.746
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.746
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.786
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.786
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.786
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:05.786
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.819
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.819
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.819
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.819
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.819
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.819
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.829
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.829
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.869
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.869
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.869
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.869
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.889
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.889
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.889
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:08.889
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.943
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.943
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.943
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.943
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.943
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.943
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.953
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.953
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.993
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:12.993
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.003
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.003
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.013
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.023
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.023
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.023
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.033
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.033
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.043
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:13.043
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:38.117
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:33:38.117
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:35:10.904
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:35:10.904
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:37:52.418
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:37:52.418
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:41:50.197
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:41:50.198
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:41:54.864
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:41:54.865
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:35.219
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:35.219
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:38.562
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:38.562
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:39.612
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:39.612
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:39.772
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:42:39.772
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+!SESSION 2016-06-05 15:43:05.888 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.springframework.ide.eclipse.webflow.core 4 0 2016-06-05 15:43:07.379
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.core [1009]
+  Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+       org.springframework.webflow [1026]
+         Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+           -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+              org.springframework.js [1015]
+                Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+           -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+  Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+  Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui 4 0 2016-06-05 15:43:07.419
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui [1010]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.graph
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.graph; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.graph"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.graph [1012]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+              org.springframework.ide.eclipse.webflow.ui.editor [1011]
+                Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+                  -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+                     org.springframework.ide.eclipse.webflow.core [1009]
+                       Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+                         -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+                            org.springframework.webflow [1026]
+                              Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                                -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                                   org.springframework.js [1015]
+                                     Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                                     Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                                     Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                                     Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                                     Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                                -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+                       Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+                         -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+                       Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+                         -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+                Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+                Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+                  -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+                Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+                  -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.editor 4 0 2016-06-05 15:43:07.459
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.editor [1011]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.core [1009]
+         Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+              org.springframework.webflow [1026]
+                Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                     org.springframework.js [1015]
+                       Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+         Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+         Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+  Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.graph 4 0 2016-06-05 15:43:07.499
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.graph [1012]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.editor [1011]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+              org.springframework.ide.eclipse.webflow.core [1009]
+                Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+                     org.springframework.webflow [1026]
+                       Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                         -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                            org.springframework.js [1015]
+                              Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                         -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+                Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+                Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+         Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-06-05 15:43:09.407
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:12.237
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:12.247
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:12.247
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:12.247
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:12.277
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:12.277
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:14.867
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:14.867
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:14.867
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:14.867
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:14.877
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:14.877
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.941
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.941
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.951
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.951
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.951
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.951
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.951
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:15.951
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.185
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.195
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.195
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.195
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.195
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.195
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.363
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.363
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.373
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.383
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.673
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:16.673
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-05 15:43:17.703
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mark'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:20.805
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:20.807
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:21.180
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:21.181
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:21.186
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:21.187
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:23.848
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:23.849
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:23.900
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:23.901
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:23.917
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:23.917
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:24.528
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:24.529
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.632
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.633
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.636
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.637
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.673
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.673
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.677
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:27.678
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:32.484
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.e4.ui.css.swt 4 0 2016-06-05 15:43:32.484
+!MESSAGE Failed to get bundle for: bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2016-06-05 15:43:53.002
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1403812
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2016-06-05 15:44:31.041
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
