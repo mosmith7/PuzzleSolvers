@@ -1,0 +1,734 @@
+!SESSION 2016-06-05 15:16:00.093 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.springframework.ide.eclipse.webflow.core 4 0 2016-06-05 15:16:01.642
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.core [1009]
+  Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+       org.springframework.webflow [1026]
+         Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+           -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+              org.springframework.js [1015]
+                Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+           -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+  Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+  Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui 4 0 2016-06-05 15:16:01.695
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui [1010]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.core [1009]
+         Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+              org.springframework.webflow [1026]
+                Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                     org.springframework.js [1015]
+                       Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+         Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+         Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.editor [1011]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.graph
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.graph; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.graph"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.graph [1012]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.editor 4 0 2016-06-05 15:16:01.775
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.editor [1011]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.core [1009]
+         Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+              org.springframework.webflow [1026]
+                Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                     org.springframework.js [1015]
+                       Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+         Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+         Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+  Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.graph 4 0 2016-06-05 15:16:01.805
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.graph [1012]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.editor [1011]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+              org.springframework.ide.eclipse.webflow.core [1009]
+                Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+                     org.springframework.webflow [1026]
+                       Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                         -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                            org.springframework.js [1015]
+                              Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                         -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+                Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+                Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+         Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-05 15:17:17.033
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mark'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-06-05 15:18:46.608 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.springframework.ide.eclipse.webflow.core 4 0 2016-06-05 15:18:48.039
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.core [1009]
+  Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+       org.springframework.webflow [1026]
+         Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+           -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+              org.springframework.js [1015]
+                Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+           -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+  Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+  Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui 4 0 2016-06-05 15:18:48.075
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui [1010]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.core [1009]
+         Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+              org.springframework.webflow [1026]
+                Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                     org.springframework.js [1015]
+                       Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+         Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+         Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.editor [1011]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.graph
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.graph; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.graph"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.graph [1012]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+           -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.editor 4 0 2016-06-05 15:18:48.105
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.editor [1011]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.core [1009]
+         Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+              org.springframework.webflow [1026]
+                Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                     org.springframework.js [1015]
+                       Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                  -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+         Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+         Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+  Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+    -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.springframework.ide.eclipse.webflow.ui.graph 4 0 2016-06-05 15:18:48.157
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.springframework.ide.eclipse.webflow.ui.graph [1012]
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor.outline.webflow; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+       org.springframework.ide.eclipse.webflow.ui.editor [1011]
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+              org.springframework.ide.eclipse.webflow.core [1009]
+                Unresolved requirement: Import-Package: org.springframework.webflow.execution.factory; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.execution.factory; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.webflow.definition,org.springframework.webflow.execution"
+                     org.springframework.webflow [1026]
+                       Unresolved requirement: Import-Package: javax.persistence; version="[1.0.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: javax.portlet; version="[1.0.0,2.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: junit.framework; version="[3.8.2,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: ognl; version="[2.6.9,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.hibernate; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.hibernate.classic; version="[3.2.6.ga,4.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security.context; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.security.vote; version="[2.0.0,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.context; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.handler; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.web.portlet.multipart; version="[3.0.0,3.1.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.js.ajax.tiles2; version="[2.0.7,2.0.8)"
+                         -> Export-Package: org.springframework.js.ajax.tiles2; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.apache.tiles,org.apache.tiles.context,org.apache.tiles.impl,org.springframework.js.ajax"
+                            org.springframework.js [1015]
+                              Unresolved requirement: Import-Package: org.apache.tiles; version="[2.0.5,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.access; version="[2.0.5,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.context; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.definition; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                              Unresolved requirement: Import-Package: org.apache.tiles.impl; version="[2.0.5.osgi,3.0.0)"; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.springframework.js.ajax; version="[2.0.7,2.0.8)"
+                         -> Export-Package: org.springframework.js.ajax; bundle-symbolic-name="org.springframework.js"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="javax.servlet.http,org.springframework.web.servlet"
+                Unresolved requirement: Import-Package: org.springframework.webflow.core.collection; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.core.collection; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.collection,org.springframework.binding.convert,org.springframework.web.multipart"
+                Unresolved requirement: Import-Package: org.springframework.webflow.config; version="[2.0.7.A,2.1.0)"
+                  -> Export-Package: org.springframework.webflow.config; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.beans,org.springframework.beans.factory.support,org.springframework.beans.factory.xml,org.springframework.context,org.springframework.core.io,org.springframework.webflow.core.collection,org.springframework.webflow.definition.registry,org.springframework.webflow.engine.builder.support,org.springframework.webflow.engine.model.registry,org.springframework.webflow.execution.factory,org.w3c.dom"
+         Unresolved requirement: Import-Package: org.springframework.webflow.engine.builder; version="[2.0.7.A,2.1.0)"
+           -> Export-Package: org.springframework.webflow.engine.builder; bundle-symbolic-name="org.springframework.webflow"; bundle-version="2.0.7.A"; version="2.0.7.A"; uses:="org.springframework.binding.convert,org.springframework.binding.expression,org.springframework.binding.mapping,org.springframework.context,org.springframework.webflow.core.collection,org.springframework.webflow.definition,org.springframework.webflow.definition.registry,org.springframework.webflow.engine,org.springframework.webflow.execution"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+         Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+           -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.model
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.model; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.ui.editor
+    -> Export-Package: org.springframework.ide.eclipse.webflow.ui.editor; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.ui.editor"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core.internal.model.validation; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Unresolved requirement: Import-Package: org.springframework.ide.eclipse.webflow.core
+    -> Export-Package: org.springframework.ide.eclipse.webflow.core; bundle-symbolic-name="org.springframework.ide.eclipse.webflow.core"; bundle-version="2.6.0.201103160035-RELEASE"; version="0.0.0"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"] because it is exposed to package 'javax.el' from resources com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"] and javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"] via two dependency chains.
+
+Chain 1:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  com.springsource.javax.el [osgi.identity; osgi.identity="com.springsource.javax.el"; type="osgi.bundle"; version:Version="1.0.0"]
+
+Chain 2:
+  org.springframework.webflow [osgi.identity; osgi.identity="org.springframework.webflow"; type="osgi.bundle"; version:Version="2.0.7.A"]
+    import: (&(osgi.wiring.package=org.springframework.beans.factory.access.el)(&(version>=3.0.0)(!(version>=3.1.0))))
+     |
+    export: osgi.wiring.package=org.springframework.beans.factory.access.el; uses:=javax.el
+  org.springframework.beans [osgi.identity; osgi.identity="org.springframework.beans"; type="osgi.bundle"; version:Version="3.0.5.RELEASE"]
+    import: (&(osgi.wiring.package=javax.el)(&(version>=1.0.0)(!(version>=3.0.0))))
+     |
+    export: osgi.wiring.package: javax.el
+  javax.el [osgi.identity; osgi.identity="javax.el"; type="osgi.bundle"; version:Version="2.2.0.v201303151357"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-05 15:18:57.291
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mark'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-06-05 15:19:56.329
+!MESSAGE cacheFile=file:/C:/Program%20Files/eclipse-jee-mars-1-win32-x86_64/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-06-05 15:20:10.586
+!MESSAGE cacheFile=file:/C:/Program%20Files/eclipse-jee-mars-1-win32-x86_64/eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.osgi 2 0 2016-06-05 15:21:05.414
+!MESSAGE While loading class "org.jboss.tools.jst.web.webapp.model.FileWebAppRecognizer", thread "Thread[Worker-3,5,main]" timed out waiting (5001ms) for thread "Thread[Worker-5,5,main]" to finish starting bundle "org.jboss.tools.jst.web_3.7.1.Final-v20160331-0256-B96 [1343]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.jboss.tools.jst.web.webapp.model.FileWebAppRecognizer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.jboss.tools.jst.web"; type="osgi.bundle"; version:Version="3.7.1.Final-v20160331-0256-B96"; singleton:="true" [id=1343] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.jboss.tools.common.model.util.ModelFeatureFactory.createFeatureInstance(ModelFeatureFactory.java:78)
+	at org.jboss.tools.common.model.loaders.impl.ModelEntityRecognizer.find(ModelEntityRecognizer.java:89)
+	at org.jboss.tools.common.model.loaders.impl.ModelEntityRecognizer.access$0(ModelEntityRecognizer.java:87)
+	at org.jboss.tools.common.model.loaders.impl.ModelEntityRecognizer$EntityRecognizerWrapper.checkResolved(ModelEntityRecognizer.java:161)
+	at org.jboss.tools.common.model.loaders.impl.ModelEntityRecognizer$EntityRecognizerWrapper.getEntityName(ModelEntityRecognizer.java:168)
+	at org.jboss.tools.common.model.loaders.impl.ModelEntityRecognizer.getEntityName(ModelEntityRecognizer.java:33)
+	at org.jboss.tools.common.model.ui.editor.XMLContentDescriber.describe(XMLContentDescriber.java:47)
+	at org.jboss.tools.common.model.ui.editor.XMLContentDescriber.describe(XMLContentDescriber.java:34)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.describe(ContentTypeCatalog.java:229)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:201)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:414)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:461)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:357)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:371)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:91)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:454)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:364)
+	at org.eclipse.core.internal.resources.File.getContentDescription(File.java:255)
+	at org.eclipse.wst.validation.internal.ContentTypeWrapper.getContentType(ContentTypeWrapper.java:36)
+	at org.eclipse.wst.validation.internal.model.FilterRule$ContentType.matchesResource(FilterRule.java:522)
+	at org.eclipse.wst.validation.internal.model.FilterGroup.shouldValidate(FilterGroup.java:181)
+	at org.eclipse.wst.validation.Validator$V2.shouldValidate(Validator.java:1114)
+	at org.eclipse.wst.validation.Validator.shouldValidate(Validator.java:320)
+	at org.eclipse.wst.validation.Friend.shouldValidate(Friend.java:50)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:800)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:119)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:83)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:93)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:51)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:116)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
