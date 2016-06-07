@@ -2,13 +2,173 @@
 <?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
 <title>JBoss Central</title>
 <generator uri="http://tt-rss.org/">Tiny Tiny RSS/1.9</generator>
-<updated>2016-04-28T23:43:32+00:00</updated>
+<updated>2016-05-06T17:14:11+00:00</updated>
 <id>http://tiny-man.rhcloud.com/public.php?op=rss&amp;id=1&amp;key=b0143615132bd9efc4e83ba42a5574f6ab939b28</id>
 
 
 <link href="http://tiny-man.rhcloud.com" rel="alternate" />
 
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+	<id>http://tools.jboss.org/blog/eclipse-fuse-tooling-new-validation.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/rJEOxaLZtN8/eclipse-fuse-tooling-new-validation.html" rel="alternate" type="text/html" />
+	<title>JBoss Fuse Tooling - Camel File Validation - Existing, Improved and New</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Note: This article has been posted also on <a href="http://developers.redhat.com/blog/2016/05/20/jboss-fuse-tooling-camel-file-validation-existing-improved-and-new/">Red Hat Developers Program blog</a></p>
+      </div>
+      <div class="paragraph">
+      <p>As I mentioned in this earlier <a href="http://developers.redhat.com/blog/2016/05/17/jboss-fuse-tooling-diagram-reworked-new-shiny-colors-and-more/">post</a>, the 8.0.0.Beta2 version of JBoss Fuse Tooling is available. In this article I will cover another new and updated feature: validations. I will explain what was already available and what’s new which improves productivity.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="existing"><a class="anchor" href="#existing"></a>Existing</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>In Fuse Camel Editor, the classic XML editor is used in the source tab. Consequently, we can rely on the Eclipse built-in validation of xml files against xsd. You just have to right-click on the source code, then Validate.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="http://tools.jboss.org/blog/images/fuse/validation/validation-XSD.png" alt="validation-XSD" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>There was a limitation about blueprint, I let you check this issue report in case the validation doesn’t work for you in previous versions: <a href="https://issues.jboss.org/browse/FUSETOOLS-1653">FUSETOOLS-1653</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="improved-and-new"><a class="anchor" href="#improved-and-new"></a>Improved and New</h2>
+      <div class="sectionbody">
+      <div class="sect2">
+      <h3 id="fuse-validation-everywhere"><a class="anchor" href="#fuse-validation-everywhere"></a>Fuse validation everywhere</h3>
+      <div class="paragraph">
+      <p>Going further than the xsd validation, the Fuse validation validates some characteristics of the component URI. This validation reports Problem markers against the Camel Component. This kind of validation was already available through Properties view but there was no global vision of these issues.</p>
+      </div>
+      <div class="paragraph">
+      <p>You can now see markers in:</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p>Project explorer</p>
+      </li>
+      <li>
+      <p>Camel Route Diagram</p>
+      </li>
+      <li>
+      <p>Tree nodes for Global configuration element</p>
+      </li>
+      <li>
+      <p>Source tab editor</p>
+      </li>
+      <li>
+      <p>Problems view</p>
+      </li>
+      </ul>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="http://tools.jboss.org/blog/images/fuse/validation/validationEverywhere.png" alt="validationEverywhere" /></span>
+      <span class="image"><img src="http://tools.jboss.org/blog/images/fuse/validation/validationOnXmlFile.png" alt="validationOnXmlFile" /></span></p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="jump-from-problems-view"><a class="anchor" href="#jump-from-problems-view"></a>Jump from Problems view</h3>
+      <div class="paragraph">
+      <p>When double-clicking on Fuse Validation error in Problems view, you are redirected to the correct Editor tab depending on which specific Camel element the error comes from.</p>
+      </div>
+      <div class="paragraph">
+      <p>For the xsd validation, you are redirected to the source editor.</p>
+      </div>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Note: This article has been posted also on &lt;a href="http://developers.redhat.com/blog/2016/05/20/jboss-fuse-tooling-camel-file-validation-existing-improved-and-new/" target="_blank"&gt;Red Hat Developers Program blog&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As I mentioned in this earlier &lt;a href="http://developers.redhat.com/blog/2016/05/17/jboss-fuse-tooling-diagram-reworked-new-shiny-colors-and-more/" target="_blank"&gt;post&lt;/a&gt;, the 8.0.0.Beta2 version of JBoss Fuse Tooling is available. In this article I will cover another new and updated feature: validations. I will explain what was already available and what&amp;rsquo;s new which improves productivity.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#existing" target="_blank"&gt;&lt;/a&gt;Existing&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In Fuse Camel Editor, the classic XML editor is used in the source tab. Consequently, we can rely on the Eclipse built-in validation of xml files against xsd. You just have to right-click on the source code, then Validate.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="http://tools.jboss.org/blog/images/fuse/validation/validation-XSD.png" alt="validation-XSD"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;There was a limitation about blueprint, I let you check this issue report in case the validation doesn&amp;rsquo;t work for you in previous versions: &lt;a href="https://issues.jboss.org/browse/FUSETOOLS-1653" target="_blank"&gt;FUSETOOLS-1653&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#improved-and-new" target="_blank"&gt;&lt;/a&gt;Improved and New&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#fuse-validation-everywhere" target="_blank"&gt;&lt;/a&gt;Fuse validation everywhere&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;Going further than the xsd validation, the Fuse validation validates some characteristics of the component URI. This validation reports Problem markers against the Camel Component. This kind of validation was already available through Properties view but there was no global vision of these issues.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can now see markers in:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;Project explorer&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Camel Route Diagram&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Tree nodes for Global configuration element&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Source tab editor&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Problems view&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="http://tools.jboss.org/blog/images/fuse/validation/validationEverywhere.png" alt="validationEverywhere"&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;img src="http://tools.jboss.org/blog/images/fuse/validation/validationOnXmlFile.png" alt="validationOnXmlFile"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#jump-from-problems-view" target="_blank"&gt;&lt;/a&gt;Jump from Problems view&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;When double-clicking on Fuse Validation error in Problems view, you are redirected to the correct Editor tab depending on which specific Camel element the error comes from.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For the xsd validation, you are redirected to the source editor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/rJEOxaLZtN8" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-06-06T06:52:27+00:00</updated>
+	<author><name>apupier</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="jbtis" />
+
+	<category term="fuse" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>http://tools.jboss.org/blog/eclipse-fuse-tooling-new-validation.html</feedburner:origLink></entry>
+
+<entry>
 	<id>https://developer.jboss.org/blogs/weekly-editorial/2016/06/03/this-week-in-jboss-2016-06-03</id>
 	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/KdGK33-vPEM/this-week-in-jboss-2016-06-03" rel="alternate" type="text/html" />
 	<title>This Week in JBoss (2016-06-03)</title>
@@ -1172,40 +1332,6 @@
 
 
 <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2016/05/06/this-week-in-jboss-6th-may-2016-a-helping-hand-is-needed</feedburner:origLink></entry>
-
-<entry>
-	<id>https://developer.jboss.org/blogs/weekly-editorial/2016/04/28/this-week-in-jboss-2016-04-28</id>
-	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/nYp_JuCxkOY/this-week-in-jboss-2016-04-28" rel="alternate" type="text/html" />
-	<title>This week in JBoss (2016-04-28)</title>
-	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:f9aa48d2-bf6a-4edc-a684-bbfd690dcff3] --><div class="jive-rendered-content"><p style="margin: 0 0 1.25rem; font-family: inherit; font-size: 1.21875em; color: rgba(0, 0, 0, 0.85098);">Welcome to another edition of the JBoss Weekly Editorial! This past week has been full of quite a bit, so we&#8217;ll just get right to it.</p><h1>Releases</h1><p><a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-5911-25806/13aadh.jpg"><img alt="13aadh.jpg" class="jive-image image-2" height="381" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-5911-25806/13aadh.jpg" style="height: auto; display: block; margin-left: auto; margin-right: auto;" width="500"/></a></p><p style="min-height: 8pt; padding: 0px;">&nbsp;</p><div class="paragraph"><p style="margin: 0 0 1.25rem; font-family: inherit; font-size: 1.0625rem;">That&#8217;s right, we&#8217;ve been hard at work bringing more quality software to you all. This past week saw many releases across a wide range of projects, some even having multiple releases in the same week!</p><div class="imageblock" style="margin: 0.25em 0 1.25em 0.625em;"><div class="content"><a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-5911-25805/releases-2016-04-28.png"><img alt="releases-2016-04-28.png" class="jive-image image-1" height="226" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-5911-25805/releases-2016-04-28.png" style="float: right;" width="208"/></a></div><ul><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Weld 2.3.4.Final next release of the 2.3 stable branch - See <a class="jive-link-external-small" href="https://issues.jboss.org/projects/WELD/versions/12329779" rel="nofollow">the change log</a> for issues fixed</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">apiman 1.2.4.Final - Notable features: Deletes, Logging in the Gateway, Circuit Breaker Policy - See <a class="jive-link-external-small" href="https://issues.jboss.org/secure/ConfigureReport.jspa?versions=12329995&amp;sections=all&amp;style=html&amp;selectedProjectId=12314121&amp;reportKey=org.jboss.labs.jira.plugin.release-notes-report-plugin:releasenotes&amp;Next=Next" rel="nofollow">changes in JIRA</a></span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Forge 3.11.Final - <a class="jive-link-external-small" href="http://forge.jboss.org/news/forge-3.1.1.final-is-here" rel="nofollow">Read the announcement</a></span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Hibernate Search 5.5.3.Final - <a class="jive-link-external-small" href="http://in.relation.to/2016/04/26/Polishing-A-Great-Release-Hibernate-Search-5/" rel="nofollow">Get up to speed on the release</a></span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Hawkular Inventory 0.15.0.Final&#8201;&#8212;&#8201;<a class="jive-link-external-small" href="http://www.hawkular.org/blog/2016/04/27/hawkular-inventory-0.15.0.Final-released.html" rel="nofollow">A smaller release, but important nonetheless</a></span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Teiid 8.13.4&#8201;&#8212;&#8201;<a class="jive-link-external-small" href="http://teiid.blogspot.com/2016/04/teiid-8134-released.html" rel="nofollow">See the official post</a></span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Weld 3.0.0.Alpha16&#8201;&#8212;&#8201;<a class="jive-link-external-small" href="https://issues.jboss.org/projects/WELD/versions/12327858" rel="nofollow">View the JIRA release notes</a></span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Wildfly Swarm 1.0.0.Beta8&#8201;&#8212;&#8201;<a class="jive-link-external-small" href="http://planet.jboss.org/post/announcement_1_0_0_beta8" rel="nofollow">Great things are coming!</a></span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Keycloak 1.9.3.Final&#8201;&#8212;&#8201;<a class="jive-link-external-small" href="https://issues.jboss.org/browse/KEYCLOAK-2934?jql=project%20%3D%20keycloak%20and%20fixVersion%20%3D%201.9.3.Final" rel="nofollow">JIRA release notes for a minor version</a></span></li></ul></div><div class="imageblock" style="margin: 0.25em 0 1.25em 0.625em;"><span style="font-size: 1.0625rem; font-family: inherit; margin: 0 0 1.25rem;">That&#8217;s it for the releases this week, look for more next week!</span></div></div><h1>Demos</h1><p style="min-height: 8pt; padding: 0px;">&nbsp;</p><ul><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;"><a class="jive-link-external-small" href="https://github.com/redhatdemocentral/cdk-install-demo" rel="nofollow">CDK 2.0 Install Kit Demo</a> by Eric Schabell</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;"><a class="jive-link-external-small" href="http://planet.jboss.org/post/red_hat_jboss_fuse_healthcare_integration_demo_part_one" rel="nofollow">Red Hat JBoss Fuse Healthcare integration</a> by Christina Lin</span></li></ul><p><span style="font-size: 1.0625rem; font-family: inherit; margin: 0 0 1.25rem;"><br/></span></p><p><span style="font-size: 1.0625rem; font-family: inherit; margin: 0 0 1.25rem;">The CDK, or <a class="jive-link-external-small" href="http://developers.redhat.com/containers/adoption" rel="nofollow">Container Development Kit</a>, is a pre-built development kit for writing container based application on Red Hat Enterprise Linux. Give it a spin regardless of the OS you&#8217;re running!</span><span style="font-size: 1.0625rem; font-family: inherit; margin: 0 0 1.25rem;">Christina walks us through the Healthcare demo in the first part of a new demo series. The demo involves five different parties with multiple data languages involved. She&#8217;ll continue to break down the demo in the coming weeks, but it is a more realistic demonstration with multiple integrations and data translations.</span></p><p><span style="font-size: 1.0625rem; font-family: inherit; margin: 0 0 1.25rem;"><br/></span></p><h1>Google Summer of Code</h1><div class="imageblock" style="margin: 0.25em 0.625em 1.25em 0;"><div class="content"><a href="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"><img alt="gsoc2016 sun 373x373" class="jive-image" src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png" style="float: left;"/></a><span style="font-size: 1.0625rem; font-family: inherit; margin: 0 0 1.25rem;">As we approach summer (at least in the northern hemisphere) students looking for something to do, at least those who are enthusiastic about tech, turn to Google Summer of Code. Once again, JBoss has had the honor of been selected as a mentoring organization! On Friday April 22nd Google announced the following ten students assigned to work with JBoss. There were many additional proposals, more than 70 in all! We&#8217;d like to thank everyone who submitted and look forward to working with you in the coming months.</span></div><div class="content"><span style="font-size: 1.0625rem; font-family: inherit; margin: 0 0 1.25rem;"><br/></span></div><div class="content"><ul style="list-style-type: circle;"><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Idel Pivnitskiy: AeroGear WebPush and UnifiedPush Server integration</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">rohitmohan96: Ceylon Markdown</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Lucas Werkmeister: Ceylon TypeScript Loader</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Samuel Richardson: Drools Rules in Minecraft</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Anton Gabov: Smart HTTP/2-based protocol for Infinispan</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Austin Ko: Hawkular-agent For Vert.x</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">mincongh: Hibernate Search: JSR 352 batch job for re-indexing entities</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Anuj Garg: Improve existing Android client of Hawkular</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">Tugba: Teiid HDFS Translator/Connector</span></li><li><span style="margin: 0 0 0.625em; font-family: inherit; font-size: 1.0625rem;">dimcho: Test scheduling for large test suites<br/></span></li></ul></div></div></div><!-- [DocumentBodyEnd:f9aa48d2-bf6a-4edc-a684-bbfd690dcff3] -->]]></summary>
-	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:f9aa48d2-bf6a-4edc-a684-bbfd690dcff3] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;Welcome to another edition of the JBoss Weekly Editorial! This past week has been full of quite a bit, so we&amp;rsquo;ll just get right to it.&lt;/p&gt;&lt;h1&gt;Releases&lt;/h1&gt;&lt;p&gt;&lt;a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-5911-25806/13aadh.jpg" target="_blank"&gt;&lt;img alt="13aadh.jpg" height="381" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-5911-25806/13aadh.jpg" width="500"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div&gt;&lt;p&gt;That&amp;rsquo;s right, we&amp;rsquo;ve been hard at work bringing more quality software to you all. This past week saw many releases across a wide range of projects, some even having multiple releases in the same week!&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;a href="https://developer.jboss.org/servlet/JiveServlet/showImage/38-5911-25805/releases-2016-04-28.png" target="_blank"&gt;&lt;img alt="releases-2016-04-28.png" height="226" src="https://developer.jboss.org/servlet/JiveServlet/downloadImage/38-5911-25805/releases-2016-04-28.png" width="208"&gt;&lt;/a&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Weld 2.3.4.Final next release of the 2.3 stable branch - See &lt;a href="https://issues.jboss.org/projects/WELD/versions/12329779" rel="nofollow" target="_blank"&gt;the change log&lt;/a&gt; for issues fixed&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;apiman 1.2.4.Final - Notable features: Deletes, Logging in the Gateway, Circuit Breaker Policy - See &lt;a href="https://issues.jboss.org/secure/ConfigureReport.jspa?versions=12329995&amp;amp;sections=all&amp;amp;style=html&amp;amp;selectedProjectId=12314121&amp;amp;reportKey=org.jboss.labs.jira.plugin.release-notes-report-plugin:releasenotes&amp;amp;Next=Next" rel="nofollow" target="_blank"&gt;changes in JIRA&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Forge 3.11.Final - &lt;a href="http://forge.jboss.org/news/forge-3.1.1.final-is-here" rel="nofollow" target="_blank"&gt;Read the announcement&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Hibernate Search 5.5.3.Final - &lt;a href="http://in.relation.to/2016/04/26/Polishing-A-Great-Release-Hibernate-Search-5/" rel="nofollow" target="_blank"&gt;Get up to speed on the release&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Hawkular Inventory 0.15.0.Final&amp;thinsp;&amp;mdash;&amp;thinsp;&lt;a href="http://www.hawkular.org/blog/2016/04/27/hawkular-inventory-0.15.0.Final-released.html" rel="nofollow" target="_blank"&gt;A smaller release, but important nonetheless&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Teiid 8.13.4&amp;thinsp;&amp;mdash;&amp;thinsp;&lt;a href="http://teiid.blogspot.com/2016/04/teiid-8134-released.html" rel="nofollow" target="_blank"&gt;See the official post&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Weld 3.0.0.Alpha16&amp;thinsp;&amp;mdash;&amp;thinsp;&lt;a href="https://issues.jboss.org/projects/WELD/versions/12327858" rel="nofollow" target="_blank"&gt;View the JIRA release notes&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Wildfly Swarm 1.0.0.Beta8&amp;thinsp;&amp;mdash;&amp;thinsp;&lt;a href="http://planet.jboss.org/post/announcement_1_0_0_beta8" rel="nofollow" target="_blank"&gt;Great things are coming!&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Keycloak 1.9.3.Final&amp;thinsp;&amp;mdash;&amp;thinsp;&lt;a href="https://issues.jboss.org/browse/KEYCLOAK-2934?jql=project%20%3D%20keycloak%20and%20fixVersion%20%3D%201.9.3.Final" rel="nofollow" target="_blank"&gt;JIRA release notes for a minor version&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;That&amp;rsquo;s it for the releases this week, look for more next week!&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;h1&gt;Demos&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;a href="https://github.com/redhatdemocentral/cdk-install-demo" rel="nofollow" target="_blank"&gt;CDK 2.0 Install Kit Demo&lt;/a&gt; by Eric Schabell&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;a href="http://planet.jboss.org/post/red_hat_jboss_fuse_healthcare_integration_demo_part_one" rel="nofollow" target="_blank"&gt;Red Hat JBoss Fuse Healthcare integration&lt;/a&gt; by Christina Lin&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;The CDK, or &lt;a href="http://developers.redhat.com/containers/adoption" rel="nofollow" target="_blank"&gt;Container Development Kit&lt;/a&gt;, is a pre-built development kit for writing container based application on Red Hat Enterprise Linux. Give it a spin regardless of the OS you&amp;rsquo;re running!&lt;/span&gt;&lt;span&gt;Christina walks us through the Healthcare demo in the first part of a new demo series. The demo involves five different parties with multiple data languages involved. She&amp;rsquo;ll continue to break down the demo in the coming weeks, but it is a more realistic demonstration with multiple integrations and data translations.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;Google Summer of Code&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;a href="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png" target="_blank"&gt;&lt;img alt="gsoc2016 sun 373x373" src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"&gt;&lt;/a&gt;&lt;span&gt;As we approach summer (at least in the northern hemisphere) students looking for something to do, at least those who are enthusiastic about tech, turn to Google Summer of Code. Once again, JBoss has had the honor of been selected as a mentoring organization! On Friday April 22nd Google announced the following ten students assigned to work with JBoss. There were many additional proposals, more than 70 in all! We&amp;rsquo;d like to thank everyone who submitted and look forward to working with you in the coming months.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Idel Pivnitskiy: AeroGear WebPush and UnifiedPush Server integration&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;rohitmohan96: Ceylon Markdown&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Lucas Werkmeister: Ceylon TypeScript Loader&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Samuel Richardson: Drools Rules in Minecraft&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Anton Gabov: Smart HTTP/2-based protocol for Infinispan&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Austin Ko: Hawkular-agent For Vert.x&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;mincongh: Hibernate Search: JSR 352 batch job for re-indexing entities&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Anuj Garg: Improve existing Android client of Hawkular&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Tugba: Teiid HDFS Translator/Connector&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;dimcho: Test scheduling for large test suites&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:f9aa48d2-bf6a-4edc-a684-bbfd690dcff3] --&gt;&lt;/body&gt;&lt;/html&gt;
-&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/nYp_JuCxkOY" height="1" width="1" alt=""/&gt;</content>
-	<updated>2016-04-28T23:43:32+00:00</updated>
-	<author><name>Jason Porter</name></author>
-	<source>
-		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
-		<title>Weekly Editorial</title></source>
-
-	<category term="weld" />
-
-	<category term="google_summer_of_code" />
-
-	<category term="hibernate-search" />
-
-	<category term="apiman" />
-
-	<category term="keycloak" />
-
-	<category term="hawkular" />
-
-	<category term="jboss forge" />
-
-	<category term="wildfly-swarm" />
-
-	<category term="teiiid" />
-
-
-<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2016/04/28/this-week-in-jboss-2016-04-28</feedburner:origLink></entry>
 
 
 </feed><!-- vim:ft=xml

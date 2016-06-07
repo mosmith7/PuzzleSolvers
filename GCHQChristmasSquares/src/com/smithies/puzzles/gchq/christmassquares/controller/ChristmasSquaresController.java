@@ -33,6 +33,16 @@ public class ChristmasSquaresController {
 		model.addObject("squaresAccountedFor", "Row clue 7, squares accounted for: " +  AllInitialClues.ROW_CLUE_7.squaresAccountedFor().toString());
 		return model;
 	}
+	
+	@RequestMapping("/intialBoard")
+	public ModelAndView intialBoard() {
+		ModelAndView model = new ModelAndView("InitialBoardPage"); // view name 
+		model.addObject("rowClue1", "Row clue 1: " +  AllInitialClues.ROW_CLUE_1.getClues().toString());
+		model.addObject("numberOfClues", "numberOfClues: " +  AllInitialClues.ROW_CLUE_1.getNumberOfClues().toString());
+		model.addObject("rowClue1Entry0", "Row clue 1, entry 0: " +  AllInitialClues.ROW_CLUE_1.getClue(0).toString());
+		model.addObject("squaresAccountedFor", "Row clue 7, squares accounted for: " +  AllInitialClues.ROW_CLUE_7.squaresAccountedFor().toString());
+		return model;
+	}
 }
 
 
