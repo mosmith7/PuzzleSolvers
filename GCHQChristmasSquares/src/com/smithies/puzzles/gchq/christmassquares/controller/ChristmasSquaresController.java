@@ -1,15 +1,22 @@
 package com.smithies.puzzles.gchq.christmassquares.controller;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.smithies.puzzles.gchq.christmassquares.model.AllInitialClues;
+import com.smithies.puzzles.gchq.christmassquares.service.Board;
 
 
 @Controller 
 public class ChristmasSquaresController {
 
+	@Autowired
+	private Board board;
+	
 	@RequestMapping("/hello")
 	public ModelAndView helloWorld() {
 		ModelAndView model = new ModelAndView("HelloPage"); // view name 
@@ -34,13 +41,13 @@ public class ChristmasSquaresController {
 		return model;
 	}
 	
-	@RequestMapping("/intialBoard")
+	@RequestMapping("/initialBoard")
 	public ModelAndView intialBoard() {
-		ModelAndView model = new ModelAndView("InitialBoardPage"); // view name 
-		model.addObject("rowClue1", "Row clue 1: " +  AllInitialClues.ROW_CLUE_1.getClues().toString());
-		model.addObject("numberOfClues", "numberOfClues: " +  AllInitialClues.ROW_CLUE_1.getNumberOfClues().toString());
-		model.addObject("rowClue1Entry0", "Row clue 1, entry 0: " +  AllInitialClues.ROW_CLUE_1.getClue(0).toString());
-		model.addObject("squaresAccountedFor", "Row clue 7, squares accounted for: " +  AllInitialClues.ROW_CLUE_7.squaresAccountedFor().toString());
+		ModelAndView model = new ModelAndView("DisplayBoard"); // view name 
+		// make a model with getters and setters and pass all the black/white values to this.
+		// Use an two integers, row and column, to get a given colour.
+		List<List<Integer>> initialBoard = board.getInitialBoard();
+		model.addObject("initialBoard", initialBoard);
 		return model;
 	}
 }
