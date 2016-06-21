@@ -1,7 +1,5 @@
 package com.smithies.puzzles.gchq.christmassquares.model;
 
-import java.util.List;
-
 public enum AllInitialClues {
 	
 	ROW_CLUE_1("Row", 7, 3, 1, 1, 7),

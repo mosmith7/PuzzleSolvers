@@ -48,23 +48,27 @@ public enum RowInitialColourValues {
 	//--------------------------------------------------------------------------------
 	RowInitialColourValues(Integer rowNumber) {
 		List<Integer> Row = new ArrayList<>();
-		if (rowNumber == 3) {
-			addRowValues(Row, row3WhiteColumnNumbers());
-		}
-		if (rowNumber == 8) {
-			addRowValues(Row, row8WhiteColumnNumbers());
-		}
-		if (rowNumber == 16) {
-			addRowValues(Row, row16WhiteColumnNumbers());
-		}
-		if (rowNumber == 21) {
-			addRowValues(Row, row21WhiteColumnNumbers());
+		if (rowNumber != 3 && rowNumber != 8 && rowNumber != 16 && rowNumber != 21) {
+			addRowValues(Row, rowNoWhiteColumnNumbers());
+		} else {
+			if (rowNumber == 3) {
+				addRowValues(Row, row3WhiteColumnNumbers());
+			}
+			if (rowNumber == 8) {
+				addRowValues(Row, row8WhiteColumnNumbers());
+			}
+			if (rowNumber == 16) {
+				addRowValues(Row, row16WhiteColumnNumbers());
+			}
+			if (rowNumber == 21) {
+				addRowValues(Row, row21WhiteColumnNumbers());
+			}
 		}
 		this.initialColourValues = Row;
 		this.rowNumber = rowNumber;
 	}
 	
-	private void addRowValues(List<Integer> Row, List whiteColumnNumbers) {
+	private void addRowValues(List<Integer> Row, List<Integer> whiteColumnNumbers) {
 		for (int i=0; i<25; i++) {
 			if (whiteColumnNumbers.contains((Integer) i)) {
 				Row.add(i, WHITE_VALUE);
@@ -74,6 +78,11 @@ public enum RowInitialColourValues {
 		}
 	}
 	
+	private List<Integer> rowNoWhiteColumnNumbers() {
+		List<Integer> rowNoWhiteColumnNumbers = new ArrayList<>();
+		rowNoWhiteColumnNumbers.add(-1);
+		return rowNoWhiteColumnNumbers;
+	}
 	private List<Integer> row3WhiteColumnNumbers() {
 		List<Integer> rowThreeWhiteColumnNumbers = new ArrayList<>();
 		rowThreeWhiteColumnNumbers.add(3);

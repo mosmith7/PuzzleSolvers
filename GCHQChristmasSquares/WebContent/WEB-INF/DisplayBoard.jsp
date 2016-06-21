@@ -1,4 +1,6 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
+
 
 <style>
     div
@@ -17,32 +19,24 @@
     }
     </style>  
   <body>
-  <div>  
-    <table id = "mytable" width="100%" border="1" cellpadding="2" cellspacing="2" style="background-color: #ffffff;">
-    <% for(int i = 0; i < 25; i+=1) { %>
-        <tr valign="top">
-    	<% for(int j = 0; j < 25; j+=1) { %>
-             <td class = "td" style="background-color:black"><br />  </td>
-        <% } %>
-        </tr>
-    <% } %>
-    </table>
-  </div>
   
-  <table>
-		<tr>
-			<td>Board object:</td>
-			<td>${initialBoard}</td>
-		</tr>
-  </table>
-  <table>
-		<tr>
-			<td>Board element:</td>
-			<td><c:forEach items="${initialBoard}" var="element">
-    The element value is ${element} <br/>
-</c:forEach> </td>
-		</tr>
-  </table>
+<div>  
+    <table id = "mytable" width="100%" border="1" cellpadding="2" cellspacing="2" style="background-color: #ffffff;">
+			<c:forEach var="row" items="${initialBoard}">
+			<tr valign="top">
+			  <c:forEach var="value" items="${row}">
+			  <c:if test = "${value==0}">
+             	<td class = "td" style="background-color:white"><br />  </td>
+        	  </c:if>
+        	  <c:if test ="${value==1}">
+             	<td class = "td" style="background-color:black"><br />  </td>
+        	  </c:if>
+    	      </c:forEach> 
+    	      </tr>
+			</c:forEach> 
+	</table>
+</div>
+  
   </body>
 
 <body>
