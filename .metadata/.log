@@ -4117,3 +4117,1113 @@ org.jboss.tools.vpe.xulrunner.XulRunnerBundleNotFoundException: Bundle org.mozil
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2016-06-21 23:03:29.532
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+	at java.util.HashMap$ValueIterator.next(Unknown Source)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:136)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1968)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1575)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$16(WorkbenchWindow.java:1542)
+	at org.eclipse.ui.internal.WorkbenchWindow$11.run(WorkbenchWindow.java:1603)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1600)
+	at org.eclipse.ui.internal.Workbench$14.run(Workbench.java:1149)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1131)
+	at org.eclipse.ui.internal.Workbench.access$21(Workbench.java:1073)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1414)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1411)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1384)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1571)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$16(WorkbenchWindow.java:1542)
+	at org.eclipse.ui.internal.WorkbenchWindow$11.run(WorkbenchWindow.java:1603)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1600)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1614)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:523)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$7.shellClosed(WBWRenderer.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1703)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4678)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1633)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2117)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1633)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2117)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1633)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2117)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SESSION 2016-06-23 17:37:04.235 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.springsource.server.ide.bundlor.core 4 0 2016-06-23 17:37:12.775
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.bundlor.core [939]
+  Unresolved requirement: Import-Package: org.apache.maven.project; resolution:="optional"
+  Unresolved requirement: Import-Package: org.maven.ide.eclipse; resolution:="optional"
+  Unresolved requirement: Import-Package: org.maven.ide.eclipse.project; resolution:="optional"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.manifest.core [947]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.bundlor.ui 4 0 2016-06-23 17:37:12.849
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.bundlor.ui [941]
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.manifest.core [947]
+         No resolution report for the bundle.  Unresolved requirement: Require-Bundle: com.springsource.server.ide.bundlor.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.bundlor.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.bundlor.core [939]
+         Unresolved requirement: Import-Package: org.apache.maven.project; resolution:="optional"
+         Unresolved requirement: Import-Package: org.maven.ide.eclipse; resolution:="optional"
+         Unresolved requirement: Import-Package: org.maven.ide.eclipse.project; resolution:="optional"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.export 4 0 2016-06-23 17:37:12.917
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.export [943]
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.manifest.core [947]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.jdt.core 4 0 2016-06-23 17:37:13.030
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.jdt.core [945]
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.manifest.core [947]
+         No resolution report for the bundle.  Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.runtime.core [950]
+         Unresolved requirement: Require-Bundle: org.eclipse.hyades.trace.ui; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.jvmti.client; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.execution; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.profile.server.core; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.integration.pde; resolution:="optional"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.jdt.ui 4 0 2016-06-23 17:37:13.114
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.jdt.ui [946]
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.runtime.core [950]
+         Unresolved requirement: Require-Bundle: org.eclipse.hyades.trace.ui; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.jvmti.client; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.execution; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.profile.server.core; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.integration.pde; resolution:="optional"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.manifest.core [947]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.jdt.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.jdt.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.jdt.core [945]
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.manifest.core 4 0 2016-06-23 17:37:13.171
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.manifest.core [947]
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.runtime.core 4 0 2016-06-23 17:37:13.279
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.runtime.core [950]
+  Unresolved requirement: Require-Bundle: org.eclipse.hyades.trace.ui; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.jvmti.client; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.execution; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.profile.server.core; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.integration.pde; resolution:="optional"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.manifest.core [947]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.runtime.ui 4 0 2016-06-23 17:37:13.391
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.runtime.ui [951]
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.runtime.core [950]
+         Unresolved requirement: Require-Bundle: org.eclipse.hyades.trace.ui; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.jvmti.client; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.execution; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.profile.server.core; resolution:="optional"
+         Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.integration.pde; resolution:="optional"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.manifest.core [947]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.ui
+    -> Bundle-SymbolicName: com.springsource.server.ide.ui; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.ui [952]
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.jdt.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.jdt.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.jdt.core [945]
+                Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+                  -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+                Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+                  -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.bundlor.ui
+           -> Bundle-SymbolicName: com.springsource.server.ide.bundlor.ui; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.bundlor.ui [941]
+                Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+                  -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+                Unresolved requirement: Require-Bundle: com.springsource.server.ide.bundlor.core
+                  -> Bundle-SymbolicName: com.springsource.server.ide.bundlor.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+                     com.springsource.server.ide.bundlor.core [939]
+                       Unresolved requirement: Import-Package: org.apache.maven.project; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.maven.ide.eclipse; resolution:="optional"
+                       Unresolved requirement: Import-Package: org.maven.ide.eclipse.project; resolution:="optional"
+                       Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+                         -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.export
+           -> Bundle-SymbolicName: com.springsource.server.ide.export; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.export [943]
+                Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+                  -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.bundlor.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.bundlor.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY com.springsource.server.ide.ui 4 0 2016-06-23 17:37:13.507
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.springsource.server.ide.ui [952]
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.jdt.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.jdt.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.jdt.core [945]
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.manifest.core [947]
+                No resolution report for the bundle.         Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.runtime.core [950]
+                Unresolved requirement: Require-Bundle: org.eclipse.hyades.trace.ui; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+                Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.jvmti.client; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+                Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.execution; bundle-version="[4.4.0,5.0.0)"; resolution:="optional"
+                Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.profile.server.core; resolution:="optional"
+                Unresolved requirement: Require-Bundle: org.eclipse.tptp.platform.integration.pde; resolution:="optional"
+                Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+                  -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.runtime.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.runtime.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.bundlor.ui
+    -> Bundle-SymbolicName: com.springsource.server.ide.bundlor.ui; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.bundlor.ui [941]
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.bundlor.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.bundlor.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+              com.springsource.server.ide.bundlor.core [939]
+                Unresolved requirement: Import-Package: org.apache.maven.project; resolution:="optional"
+                Unresolved requirement: Import-Package: org.maven.ide.eclipse; resolution:="optional"
+                Unresolved requirement: Import-Package: org.maven.ide.eclipse.project; resolution:="optional"
+                Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+                  -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.export
+    -> Bundle-SymbolicName: com.springsource.server.ide.export; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+       com.springsource.server.ide.export [943]
+         Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+           -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.bundlor.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.bundlor.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Unresolved requirement: Require-Bundle: com.springsource.server.ide.manifest.core
+    -> Bundle-SymbolicName: com.springsource.server.ide.manifest.core; bundle-version="2.6.0.201103161000-RELEASE"; singleton:="true"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"] because it is exposed to package 'org.aspectj.lang.annotation' from resources com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"] and org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"] via two dependency chains.
+
+Chain 1:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.org.aspectj.weaver)
+     |
+    provide: osgi.wiring.bundle: com.springsource.org.aspectj.weaver
+  com.springsource.org.aspectj.weaver [osgi.identity; osgi.identity="com.springsource.org.aspectj.weaver"; type="osgi.bundle"; version:Version="1.6.10.RELEASE"]
+
+Chain 2:
+  com.springsource.server.ide.manifest.core [osgi.identity; osgi.identity="com.springsource.server.ide.manifest.core"; type="osgi.bundle"; version:Version="2.6.0.201103161000-RELEASE"; singleton:="true"]
+    require: (osgi.wiring.bundle=com.springsource.repository)
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="2.0.0.RELEASE"; osgi.wiring.bundle="com.springsource.repository"
+  com.springsource.repository [osgi.identity; osgi.identity="com.springsource.repository"; type="osgi.bundle"; version:Version="2.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=com.springsource.osgi.medic.log)(&(version>=1.0.0)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package=com.springsource.osgi.medic.log; uses:=org.aspectj.lang.annotation
+  com.springsource.osgi.medic [osgi.identity; osgi.identity="com.springsource.osgi.medic"; type="osgi.bundle"; version:Version="1.0.0.RELEASE"]
+    import: (&(osgi.wiring.package=org.aspectj.lang.annotation)(&(version>=1.6.8)(!(version>=2.0.0))))
+     |
+    export: osgi.wiring.package: org.aspectj.lang.annotation
+  org.aspectj.runtime [osgi.identity; osgi.identity="org.aspectj.runtime"; type="osgi.bundle"; version:Version="1.8.6.20150608154200"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2016-06-23 17:38:10.497
+!MESSAGE Visual Page Editor has experimental support for Windows 64-bit.
+Follow the link below to get details on how to install. Until then you can click on the Source tab to hide this error/info message.
+!STACK 0
+org.jboss.tools.vpe.xulrunner.XulRunnerBundleNotFoundException: Bundle org.mozilla.xulrunner.win32.win32.x86_64 is not found.
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.getXulRunnerPath(XulRunnerBrowser.java:238)
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.<init>(XulRunnerBrowser.java:122)
+	at org.jboss.tools.vpe.xulrunner.editor.XulRunnerEditor.<init>(XulRunnerEditor.java:128)
+	at org.jboss.tools.vpe.editor.mozilla.XulRunnerEditor2.<init>(XulRunnerEditor2.java:23)
+	at org.jboss.tools.vpe.editor.mozilla.MozillaEditor.createPartControl(MozillaEditor.java:594)
+	at org.jboss.tools.vpe.editor.VpeEditorPart.createVisualEditor(VpeEditorPart.java:813)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.pageChange(JSPMultiPageEditor.java:283)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1102)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.createPages(JSPMultiPageEditor.java:511)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:363)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:614)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1061)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-23 17:38:29.079
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mark'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2016-06-23 17:40:47.996
+!MESSAGE Visual Page Editor has experimental support for Windows 64-bit.
+Follow the link below to get details on how to install. Until then you can click on the Source tab to hide this error/info message.
+!STACK 0
+org.jboss.tools.vpe.xulrunner.XulRunnerBundleNotFoundException: Bundle org.mozilla.xulrunner.win32.win32.x86_64 is not found.
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.getXulRunnerPath(XulRunnerBrowser.java:238)
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.<init>(XulRunnerBrowser.java:122)
+	at org.jboss.tools.vpe.xulrunner.editor.XulRunnerEditor.<init>(XulRunnerEditor.java:128)
+	at org.jboss.tools.vpe.editor.mozilla.XulRunnerEditor2.<init>(XulRunnerEditor2.java:23)
+	at org.jboss.tools.vpe.editor.mozilla.MozillaEditor.createPartControl(MozillaEditor.java:594)
+	at org.jboss.tools.vpe.editor.VpeEditorPart.createVisualEditor(VpeEditorPart.java:813)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.pageChange(JSPMultiPageEditor.java:283)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1102)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.createPages(JSPMultiPageEditor.java:511)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:363)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$9.widgetSelected(StackRenderer.java:1084)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:788)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3158)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1841)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:330)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY tern.eclipse.ide.core 4 0 2016-06-23 17:48:32.846
+!MESSAGE TernError: No type found at the given position.
+!STACK 0
+tern.TernException: TernError: No type found at the given position.
+	at tern.server.DefaultResponseHandler.getData(DefaultResponseHandler.java:45)
+	at tern.server.protocol.TernResultsProcessorsFactory.makeRequestAndProcess(TernResultsProcessorsFactory.java:43)
+	at tern.eclipse.ide.internal.core.resources.IDETernServerAsyncReqProcessor.run(IDETernServerAsyncReqProcessor.java:104)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: tern.TernException: TernError: No type found at the given position.
+	at tern.server.nodejs.NodejsTernHelper.makeRequest(NodejsTernHelper.java:86)
+	at tern.server.nodejs.NodejsTernServer.makeRequest(NodejsTernServer.java:163)
+	at tern.server.nodejs.NodejsTernServer.request(NodejsTernServer.java:127)
+	at tern.server.protocol.TernResultsProcessorsFactory.makeRequestAndProcess(TernResultsProcessorsFactory.java:42)
+	... 2 more
+
+!ENTRY tern.eclipse.ide.core 4 0 2016-06-23 17:48:32.929
+!MESSAGE TernError: No type found at the given position.
+!STACK 0
+tern.TernException: TernError: No type found at the given position.
+	at tern.server.DefaultResponseHandler.getData(DefaultResponseHandler.java:45)
+	at tern.server.protocol.TernResultsProcessorsFactory.makeRequestAndProcess(TernResultsProcessorsFactory.java:43)
+	at tern.eclipse.ide.internal.core.resources.IDETernServerAsyncReqProcessor.run(IDETernServerAsyncReqProcessor.java:104)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: tern.TernException: TernError: No type found at the given position.
+	at tern.server.nodejs.NodejsTernHelper.makeRequest(NodejsTernHelper.java:86)
+	at tern.server.nodejs.NodejsTernServer.makeRequest(NodejsTernServer.java:163)
+	at tern.server.nodejs.NodejsTernServer.request(NodejsTernServer.java:127)
+	at tern.server.protocol.TernResultsProcessorsFactory.makeRequestAndProcess(TernResultsProcessorsFactory.java:42)
+	... 2 more
+
+!ENTRY tern.eclipse.ide.core 4 0 2016-06-23 17:48:32.982
+!MESSAGE TernError: No type found at the given position.
+!STACK 0
+tern.TernException: TernError: No type found at the given position.
+	at tern.server.DefaultResponseHandler.getData(DefaultResponseHandler.java:45)
+	at tern.server.protocol.TernResultsProcessorsFactory.makeRequestAndProcess(TernResultsProcessorsFactory.java:43)
+	at tern.eclipse.ide.internal.core.resources.IDETernServerAsyncReqProcessor.run(IDETernServerAsyncReqProcessor.java:104)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: tern.TernException: TernError: No type found at the given position.
+	at tern.server.nodejs.NodejsTernHelper.makeRequest(NodejsTernHelper.java:86)
+	at tern.server.nodejs.NodejsTernServer.makeRequest(NodejsTernServer.java:163)
+	at tern.server.nodejs.NodejsTernServer.request(NodejsTernServer.java:127)
+	at tern.server.protocol.TernResultsProcessorsFactory.makeRequestAndProcess(TernResultsProcessorsFactory.java:42)
+	... 2 more
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2016-06-23 17:50:01.616
+!MESSAGE Visual Page Editor has experimental support for Windows 64-bit.
+Follow the link below to get details on how to install. Until then you can click on the Source tab to hide this error/info message.
+!STACK 0
+org.jboss.tools.vpe.xulrunner.XulRunnerBundleNotFoundException: Bundle org.mozilla.xulrunner.win32.win32.x86_64 is not found.
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.getXulRunnerPath(XulRunnerBrowser.java:238)
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.<init>(XulRunnerBrowser.java:122)
+	at org.jboss.tools.vpe.xulrunner.editor.XulRunnerEditor.<init>(XulRunnerEditor.java:128)
+	at org.jboss.tools.vpe.editor.mozilla.XulRunnerEditor2.<init>(XulRunnerEditor2.java:23)
+	at org.jboss.tools.vpe.editor.mozilla.MozillaEditor.createPartControl(MozillaEditor.java:594)
+	at org.jboss.tools.vpe.editor.VpeEditorPart.createVisualEditor(VpeEditorPart.java:813)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.pageChange(JSPMultiPageEditor.java:283)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1102)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.createPages(JSPMultiPageEditor.java:511)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:363)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:494)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:458)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:724)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:396)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1166)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3234)
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3149)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3126)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3090)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3080)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:541)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:500)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:360)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:167)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:268)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:233)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:275)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:251)
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:50)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$2.open(CommonNavigatorManager.java:191)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:854)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:851)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1168)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:449)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1275)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2016-06-23 17:53:38.654
+!MESSAGE Visual Page Editor has experimental support for Windows 64-bit.
+Follow the link below to get details on how to install. Until then you can click on the Source tab to hide this error/info message.
+!STACK 0
+org.jboss.tools.vpe.xulrunner.XulRunnerBundleNotFoundException: Bundle org.mozilla.xulrunner.win32.win32.x86_64 is not found.
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.getXulRunnerPath(XulRunnerBrowser.java:238)
+	at org.jboss.tools.vpe.xulrunner.browser.XulRunnerBrowser.<init>(XulRunnerBrowser.java:122)
+	at org.jboss.tools.vpe.xulrunner.editor.XulRunnerEditor.<init>(XulRunnerEditor.java:128)
+	at org.jboss.tools.vpe.editor.mozilla.XulRunnerEditor2.<init>(XulRunnerEditor2.java:23)
+	at org.jboss.tools.vpe.editor.mozilla.MozillaEditor.createPartControl(MozillaEditor.java:594)
+	at org.jboss.tools.vpe.editor.VpeEditorPart.createVisualEditor(VpeEditorPart.java:813)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.pageChange(JSPMultiPageEditor.java:283)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:1102)
+	at org.jboss.tools.jst.web.ui.internal.editor.jspeditor.JSPMultiPageEditor.createPages(JSPMultiPageEditor.java:511)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:363)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$9.widgetSelected(StackRenderer.java:1084)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:788)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3158)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1841)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:330)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.jface 2 0 2016-06-23 19:04:58.754
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-06-23 19:04:58.754
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e587be9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b07e96a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.vpe.commands.refreshCommand,Refresh,
+		,
+		Category(org.jboss.tools.vpe.category,Visual Page Editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b81a499,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.jboss.tools.vpe.editorContext,,,system)

@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.smithies.puzzles.gchq.christmassquares.model.AllInitialClues;
+import com.smithies.puzzles.gchq.christmassquares.model.PuzzleConstants;
 import com.smithies.puzzles.gchq.christmassquares.service.Board;
 
 
@@ -46,8 +47,19 @@ public class ChristmasSquaresController {
 		ModelAndView model = new ModelAndView("DisplayBoard"); // view name 
 		// make a model with getters and setters and pass all the black/white values to this.
 		// Use an two integers, row and column, to get a given colour.
-		List<List<Integer>> initialBoard = board.getInitialBoard();
-		model.addObject("initialBoard", initialBoard);
+		List<List<Integer>> initialBoard = PuzzleConstants.INITIAL_BOARD;
+		model.addObject("board", initialBoard);
+		return model;
+	}
+	
+	@RequestMapping("/firstStep")
+	public ModelAndView solveFirstStep() {
+		ModelAndView model = new ModelAndView("DisplayBoard"); // view name 
+		// make a model with getters and setters and pass all the black/white values to this.
+		// Use an two integers, row and column, to get a given colour.
+		List<List<Integer>> initialBoard = PuzzleConstants.INITIAL_BOARD;
+		List<List<Integer>> updatedBoard = board.solveFirstStep(initialBoard);
+		model.addObject("board", updatedBoard);
 		return model;
 	}
 }

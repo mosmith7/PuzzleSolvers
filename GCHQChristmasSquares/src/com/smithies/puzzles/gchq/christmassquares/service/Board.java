@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface Board {
 
-	List<List<Integer>> getInitialBoard();
+	List<List<Integer>> solveFirstStep(List<List<Integer>> initialBoard);
 
 }

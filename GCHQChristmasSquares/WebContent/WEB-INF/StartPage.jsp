@@ -8,6 +8,9 @@
 	
 	<h2>${greeting} </h2>
 	
+	<form action = "/GCHQChristmasSquares/initialBoard" method="get">
+		<input type="submit" value="Go to puzzle start" /> 
+	</form>
 </body>
 
 </html>
